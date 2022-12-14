@@ -1,3 +1,4 @@
+# HelloDocker
 ## What is Docker?
 Docker is the de facto standard for building, shipping and running applications in a consistent manner. That's why most companies use it and are looking for developers with Docker skills.
 
@@ -76,11 +77,10 @@ $ docker run  huixinyang/hello-docker
 ### Push an existing repository from the command line
 ```bash
 $ git init
-```
-
-```bash
 $ git remote add origin https://github.com/HUIXIN-TW/HelloDocker.git
 $ git branch -M master
+$ git add .
+$ git commit -m "init"
 $ git push -u origin master
 ```
 
